@@ -32,24 +32,13 @@ While the current implementation includes some basic responsive considerations, 
 * **`maxWidth: '600px'`:** Applied to the main container (`Box` with class `profile-page-container` and `account-page-container`) to prevent the content from stretching too wide on large desktop screens, ensuring readability and a focused layout.
 * **`width: '100%'`:** Used on various elements (e.g., input fields, select boxes) to ensure they adapt to the width of their parent container, providing better flow on different screen sizes.
 
-**Future Improvements (Responsive):**
-
-Given more time, the responsive strategy would be significantly enhanced by:
-
-* **Defining Specific Breakpoints:** Implementing media queries in the CSS to target different screen sizes (e.g., mobile, tablet, small desktop, large desktop).
-* **Adapting Layout:** Adjusting the layout of components at different breakpoints. For example:
-    * Potentially stacking elements vertically on smaller screens that are displayed horizontally on larger screens.
-    * Adjusting font sizes and padding for better readability on mobile devices.
-    * Considering a different navigation structure for smaller screens (e.g., a bottom navigation bar or a hamburger menu for the sidebar).
-* **Testing on Multiple Devices:** Thoroughly testing the application on a range of physical devices and browser emulators to ensure a seamless and consistent experience across various screen sizes and orientations.
-
 
 ## Future Improvements
 
 Given more time, several enhancements and refinements would be made to this settings page:
 
-* **Frontend Cleanup and Aesthetic Improvements:** A thorough review and refactoring of the frontend code to improve its structure, readability, maintainability, and aesthetics. This would involve refining the styling, ensuring consistency across components. 
+* **Frontend Cleanup and Aesthetic Improvements:** A thorough review and refactoring of the frontend code to improve its structure, readability, maintainability, and aesthetics. This would involve refining the styling and ensuring consistency across components. 
 * **Cancel Option for Profile Editing:** Implementing a "Cancel" button within the profile editing mode to allow users to discard any changes they've made without saving.
 * **Reusable Components:** Identifying and extracting repetitive UI patterns (such as the profile fields, notification boxes, and section containers) into reusable React components. This would significantly reduce code duplication, improve maintainability, and promote consistency across the application.
-* **Enhanced Responsive Design:** As mentioned in the "Responsive Strategy" section, a more comprehensive and adaptive responsive design would be implemented to ensure optimal viewing and interaction across a wider range of devices and screen sizes.
+* **Enhanced Responsive Design:** A more comprehensive and adaptive responsive design would be implemented to ensure optimal viewing and interaction across a wider range of devices and screen sizes.
 * **Form Validation:** Make certain fields in the profile section mandatory. Check if the entered data matches the expected format, and if it doesn't, throw an error. 
