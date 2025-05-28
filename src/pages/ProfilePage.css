@@ -1,0 +1,104 @@
+.profile-page-container {
+    background-color: #E8F4F6;
+    color: black;
+    padding: 24px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+  }
+ 
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+ 
+  .profile-icon {
+    margin-right: 8px;
+    color: black;
+  }
+ 
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+ 
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+ 
+  .form-field {
+    margin-bottom: 10px;
+  }
+ 
+  .form-field label {
+    color: black;
+    display: block;
+    margin-bottom: 4px;
+  }
+ 
+  .form-field input,
+  .form-field select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+  }
+ 
+  .input-enabled {
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+ 
+  .input-disabled {
+    background-color: #DADADA;
+    border: 1px solid transparent;
+  }
+ 
+  .form-field.checkbox-field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Changed to flex-start */
+  }
+ 
+  
+  /* Changed class name to checkbox-label and reduced margin */
+  .form-field.checkbox-field .checkbox-label {
+    margin-right: 5px;  /* Reduced spacing */
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+ 
+  .form-field hr {
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+ 
+  .profile-button {
+    padding: 10px 15px;
+    background-color: #F26E78;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .profile-button:hover {
+    opacity: 0.8;
+  }
+ 
+  .profile-button:active {
+    transform: scale(0.98);
+  }
+ 
+  .form-field-grow {
+    flex: 1;
+  }

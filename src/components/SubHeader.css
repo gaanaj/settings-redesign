@@ -1,0 +1,67 @@
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-top: 3px solid #1dbcd2;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left .name {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .dot {
+    margin: 0 8px;
+    color: #555;
+  }
+  
+  .contact-row {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 4px;
+  }
+  
+  .email {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .email:hover {
+    text-decoration: underline;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .icon-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1dbcd2;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .icon-button svg {
+    font-size: 1.5rem;
+  }
+  
+  .right .datetime {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .icon-button.active {
+    border-bottom: 2px solid currentColor; /* Underline with the icon's color */
+    padding-bottom: 2px; 
+  }
